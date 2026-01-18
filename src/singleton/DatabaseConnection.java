@@ -19,7 +19,7 @@ private DatabaseConnection() {
     try {
         String url = "jdbc:postgresql://localhost:5432/a01_a1";
         String user = "postgres";
-        String password = "kea1213";
+        String password = "kea99";
 
         connection = DriverManager.getConnection(url, user, password);
         System.out.println(connection.getSchema());
